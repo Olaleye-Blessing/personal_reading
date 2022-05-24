@@ -1,0 +1,29 @@
+{
+    "name": "nodebootcampexpress",
+    "version": "1.0.0",
+    "description": "Learning node express and mongodb",
+    "main": "server.js",
+    "scripts": {
+        "start:dev": "nodemon server.js",
+        "start:prod": "SET NODE_ENV=production & nodemon server.js",
+        "debug": "ndb server.js"
+    },
+    "keywords": [
+        "express",
+        "nodejs",
+        "mongodb"
+    ],
+    "author": "Blessing",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "express": "^4.17.3"
+    },
+    "devDependencies": {},
+    "engines": {
+        "npm": ">=8.3.0",
+        "node": ">=16.14.0"
+    }
+}
